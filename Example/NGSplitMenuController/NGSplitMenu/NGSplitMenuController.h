@@ -10,4 +10,9 @@
 
 @interface NGSplitMenuController : UIViewController
 
+- (instancetype)initWithMasterViewController:(UIViewController*)masterController andDetailController:(UIViewController*)detailViewController;
+- (void)setMasterListWidth:(CGFloat)width;
+- (void)setDetailListWidth:(CGFloat)width;
+
+
 @end

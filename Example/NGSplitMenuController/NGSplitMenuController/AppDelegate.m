@@ -7,8 +7,13 @@
 //
 
 #import "AppDelegate.h"
+#import "NGSplitMenuController.h"
+#import "MasterViewController.h"
+#import "DetailViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic,strong) NGSplitMenuController *splitMenuController;
 
 @end
 
@@ -17,6 +22,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    MasterViewController *masterView = [[MasterViewController alloc]init];
+    DetailViewController *detailView = [[DetailViewController alloc]init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    _splitMenuController = [[NGSplitMenuController alloc]initWithMasterViewController:masterView andDetailController:detailView];
+    
+    
+    UINavigationController *rootNavigationController = [[UINavigationController alloc]initWithRootViewController:_splitMenuController];
+    
+    self.window.rootViewController = rootNavigationController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

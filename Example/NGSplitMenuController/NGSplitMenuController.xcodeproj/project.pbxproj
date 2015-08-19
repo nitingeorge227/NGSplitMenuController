@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		28BDCD781B84F0490042DF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD771B84F0490042DF4A /* main.m */; };
 		28BDCD7B1B84F0490042DF4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD7A1B84F0490042DF4A /* AppDelegate.m */; };
-		28BDCD7E1B84F0490042DF4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD7D1B84F0490042DF4A /* ViewController.m */; };
-		28BDCD811B84F0490042DF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD7F1B84F0490042DF4A /* Main.storyboard */; };
 		28BDCD831B84F0490042DF4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD821B84F0490042DF4A /* Images.xcassets */; };
 		28BDCD861B84F0490042DF4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD841B84F0490042DF4A /* LaunchScreen.xib */; };
 		28BDCD921B84F0490042DF4A /* NGSplitMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */; };
+		28BDCDA51B84F5F50042DF4A /* NGSplitMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDA41B84F5F50042DF4A /* NGSplitMenuController.m */; };
+		28BDCDA91B85315A0042DF4A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDA71B85315A0042DF4A /* MasterViewController.m */; };
+		28BDCDAA1B85315A0042DF4A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDA81B85315A0042DF4A /* MasterViewController.xib */; };
+		28BDCDAE1B85316D0042DF4A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDAC1B85316D0042DF4A /* DetailViewController.m */; };
+		28BDCDAF1B85316D0042DF4A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDAD1B85316D0042DF4A /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		28BDCD771B84F0490042DF4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28BDCD791B84F0490042DF4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28BDCD7A1B84F0490042DF4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28BDCD7C1B84F0490042DF4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28BDCD7D1B84F0490042DF4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		28BDCD801B84F0490042DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28BDCD821B84F0490042DF4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		28BDCD851B84F0490042DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		28BDCD8B1B84F0490042DF4A /* NGSplitMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGSplitMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BDCD901B84F0490042DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGSplitMenuControllerTests.m; sourceTree = "<group>"; };
+		28BDCDA31B84F5F50042DF4A /* NGSplitMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSplitMenuController.h; sourceTree = "<group>"; };
+		28BDCDA41B84F5F50042DF4A /* NGSplitMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSplitMenuController.m; sourceTree = "<group>"; };
+		28BDCDA61B85315A0042DF4A /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		28BDCDA71B85315A0042DF4A /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		28BDCDA81B85315A0042DF4A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		28BDCDAB1B85316D0042DF4A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		28BDCDAC1B85316D0042DF4A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		28BDCDAD1B85316D0042DF4A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +89,15 @@
 		28BDCD741B84F0490042DF4A /* NGSplitMenuController */ = {
 			isa = PBXGroup;
 			children = (
+				28BDCDA21B84F5BA0042DF4A /* NGSplitMenu */,
 				28BDCD791B84F0490042DF4A /* AppDelegate.h */,
 				28BDCD7A1B84F0490042DF4A /* AppDelegate.m */,
-				28BDCD7C1B84F0490042DF4A /* ViewController.h */,
-				28BDCD7D1B84F0490042DF4A /* ViewController.m */,
-				28BDCD7F1B84F0490042DF4A /* Main.storyboard */,
+				28BDCDA61B85315A0042DF4A /* MasterViewController.h */,
+				28BDCDA71B85315A0042DF4A /* MasterViewController.m */,
+				28BDCDA81B85315A0042DF4A /* MasterViewController.xib */,
+				28BDCDAB1B85316D0042DF4A /* DetailViewController.h */,
+				28BDCDAC1B85316D0042DF4A /* DetailViewController.m */,
+				28BDCDAD1B85316D0042DF4A /* DetailViewController.xib */,
 				28BDCD821B84F0490042DF4A /* Images.xcassets */,
 				28BDCD841B84F0490042DF4A /* LaunchScreen.xib */,
 				28BDCD751B84F0490042DF4A /* Supporting Files */,
@@ -118,6 +130,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		28BDCDA21B84F5BA0042DF4A /* NGSplitMenu */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCDA31B84F5F50042DF4A /* NGSplitMenuController.h */,
+				28BDCDA41B84F5F50042DF4A /* NGSplitMenuController.m */,
+			);
+			path = NGSplitMenu;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -199,9 +220,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BDCD811B84F0490042DF4A /* Main.storyboard in Resources */,
 				28BDCD861B84F0490042DF4A /* LaunchScreen.xib in Resources */,
 				28BDCD831B84F0490042DF4A /* Images.xcassets in Resources */,
+				28BDCDAA1B85315A0042DF4A /* MasterViewController.xib in Resources */,
+				28BDCDAF1B85316D0042DF4A /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BDCD7E1B84F0490042DF4A /* ViewController.m in Sources */,
+				28BDCDAE1B85316D0042DF4A /* DetailViewController.m in Sources */,
 				28BDCD7B1B84F0490042DF4A /* AppDelegate.m in Sources */,
+				28BDCDA51B84F5F50042DF4A /* NGSplitMenuController.m in Sources */,
+				28BDCDA91B85315A0042DF4A /* MasterViewController.m in Sources */,
 				28BDCD781B84F0490042DF4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +268,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		28BDCD7F1B84F0490042DF4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28BDCD801B84F0490042DF4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28BDCD841B84F0490042DF4A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -352,6 +368,7 @@
 				INFOPLIST_FILE = NGSplitMenuController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -362,6 +379,7 @@
 				INFOPLIST_FILE = NGSplitMenuController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
