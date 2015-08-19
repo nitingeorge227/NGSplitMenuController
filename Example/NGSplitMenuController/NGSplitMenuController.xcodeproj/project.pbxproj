@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28BDCD781B84F0490042DF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD771B84F0490042DF4A /* main.m */; };
+		28BDCD7B1B84F0490042DF4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD7A1B84F0490042DF4A /* AppDelegate.m */; };
+		28BDCD7E1B84F0490042DF4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD7D1B84F0490042DF4A /* ViewController.m */; };
+		28BDCD811B84F0490042DF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD7F1B84F0490042DF4A /* Main.storyboard */; };
+		28BDCD831B84F0490042DF4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD821B84F0490042DF4A /* Images.xcassets */; };
+		28BDCD861B84F0490042DF4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD841B84F0490042DF4A /* LaunchScreen.xib */; };
+		28BDCD921B84F0490042DF4A /* NGSplitMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28BDCD8C1B84F0490042DF4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28BDCD6A1B84F0490042DF4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28BDCD711B84F0490042DF4A;
+			remoteInfo = NGSplitMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28BDCD721B84F0490042DF4A /* NGSplitMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGSplitMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BDCD761B84F0490042DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BDCD771B84F0490042DF4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28BDCD791B84F0490042DF4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28BDCD7A1B84F0490042DF4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28BDCD7C1B84F0490042DF4A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28BDCD7D1B84F0490042DF4A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28BDCD801B84F0490042DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28BDCD821B84F0490042DF4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28BDCD851B84F0490042DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		28BDCD8B1B84F0490042DF4A /* NGSplitMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGSplitMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BDCD901B84F0490042DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGSplitMenuControllerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28BDCD6F1B84F0490042DF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BDCD881B84F0490042DF4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28BDCD691B84F0490042DF4A = {
+			isa = PBXGroup;
+			children = (
+				28BDCD741B84F0490042DF4A /* NGSplitMenuController */,
+				28BDCD8E1B84F0490042DF4A /* NGSplitMenuControllerTests */,
+				28BDCD731B84F0490042DF4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28BDCD731B84F0490042DF4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCD721B84F0490042DF4A /* NGSplitMenuController.app */,
+				28BDCD8B1B84F0490042DF4A /* NGSplitMenuControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28BDCD741B84F0490042DF4A /* NGSplitMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCD791B84F0490042DF4A /* AppDelegate.h */,
+				28BDCD7A1B84F0490042DF4A /* AppDelegate.m */,
+				28BDCD7C1B84F0490042DF4A /* ViewController.h */,
+				28BDCD7D1B84F0490042DF4A /* ViewController.m */,
+				28BDCD7F1B84F0490042DF4A /* Main.storyboard */,
+				28BDCD821B84F0490042DF4A /* Images.xcassets */,
+				28BDCD841B84F0490042DF4A /* LaunchScreen.xib */,
+				28BDCD751B84F0490042DF4A /* Supporting Files */,
+			);
+			path = NGSplitMenuController;
+			sourceTree = "<group>";
+		};
+		28BDCD751B84F0490042DF4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCD761B84F0490042DF4A /* Info.plist */,
+				28BDCD771B84F0490042DF4A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28BDCD8E1B84F0490042DF4A /* NGSplitMenuControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */,
+				28BDCD8F1B84F0490042DF4A /* Supporting Files */,
+			);
+			path = NGSplitMenuControllerTests;
+			sourceTree = "<group>";
+		};
+		28BDCD8F1B84F0490042DF4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCD901B84F0490042DF4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28BDCD711B84F0490042DF4A /* NGSplitMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BDCD951B84F0490042DF4A /* Build configuration list for PBXNativeTarget "NGSplitMenuController" */;
+			buildPhases = (
+				28BDCD6E1B84F0490042DF4A /* Sources */,
+				28BDCD6F1B84F0490042DF4A /* Frameworks */,
+				28BDCD701B84F0490042DF4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGSplitMenuController;
+			productName = NGSplitMenuController;
+			productReference = 28BDCD721B84F0490042DF4A /* NGSplitMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28BDCD8A1B84F0490042DF4A /* NGSplitMenuControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28BDCD981B84F0490042DF4A /* Build configuration list for PBXNativeTarget "NGSplitMenuControllerTests" */;
+			buildPhases = (
+				28BDCD871B84F0490042DF4A /* Sources */,
+				28BDCD881B84F0490042DF4A /* Frameworks */,
+				28BDCD891B84F0490042DF4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28BDCD8D1B84F0490042DF4A /* PBXTargetDependency */,
+			);
+			name = NGSplitMenuControllerTests;
+			productName = NGSplitMenuControllerTests;
+			productReference = 28BDCD8B1B84F0490042DF4A /* NGSplitMenuControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28BDCD6A1B84F0490042DF4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nitin George";
+				TargetAttributes = {
+					28BDCD711B84F0490042DF4A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					28BDCD8A1B84F0490042DF4A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 28BDCD711B84F0490042DF4A;
+					};
+				};
+			};
+			buildConfigurationList = 28BDCD6D1B84F0490042DF4A /* Build configuration list for PBXProject "NGSplitMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28BDCD691B84F0490042DF4A;
+			productRefGroup = 28BDCD731B84F0490042DF4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28BDCD711B84F0490042DF4A /* NGSplitMenuController */,
+				28BDCD8A1B84F0490042DF4A /* NGSplitMenuControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28BDCD701B84F0490042DF4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BDCD811B84F0490042DF4A /* Main.storyboard in Resources */,
+				28BDCD861B84F0490042DF4A /* LaunchScreen.xib in Resources */,
+				28BDCD831B84F0490042DF4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BDCD891B84F0490042DF4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28BDCD6E1B84F0490042DF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BDCD7E1B84F0490042DF4A /* ViewController.m in Sources */,
+				28BDCD7B1B84F0490042DF4A /* AppDelegate.m in Sources */,
+				28BDCD781B84F0490042DF4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BDCD871B84F0490042DF4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BDCD921B84F0490042DF4A /* NGSplitMenuControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28BDCD8D1B84F0490042DF4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28BDCD711B84F0490042DF4A /* NGSplitMenuController */;
+			targetProxy = 28BDCD8C1B84F0490042DF4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28BDCD7F1B84F0490042DF4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BDCD801B84F0490042DF4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28BDCD841B84F0490042DF4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28BDCD851B84F0490042DF4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28BDCD931B84F0490042DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		28BDCD941B84F0490042DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28BDCD961B84F0490042DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NGSplitMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28BDCD971B84F0490042DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NGSplitMenuController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28BDCD991B84F0490042DF4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGSplitMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGSplitMenuController.app/NGSplitMenuController";
+			};
+			name = Debug;
+		};
+		28BDCD9A1B84F0490042DF4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NGSplitMenuControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGSplitMenuController.app/NGSplitMenuController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28BDCD6D1B84F0490042DF4A /* Build configuration list for PBXProject "NGSplitMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BDCD931B84F0490042DF4A /* Debug */,
+				28BDCD941B84F0490042DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28BDCD951B84F0490042DF4A /* Build configuration list for PBXNativeTarget "NGSplitMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BDCD961B84F0490042DF4A /* Debug */,
+				28BDCD971B84F0490042DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28BDCD981B84F0490042DF4A /* Build configuration list for PBXNativeTarget "NGSplitMenuControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28BDCD991B84F0490042DF4A /* Debug */,
+				28BDCD9A1B84F0490042DF4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28BDCD6A1B84F0490042DF4A /* Project object */;
+}
