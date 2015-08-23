@@ -1,20 +1,21 @@
 //
-//  MasterViewController.m
+//  MasterViewControllerThree.m
 //  NGSplitMenuController
 //
-//  Created by Nitin George on 8/22/15.
+//  Created by Nitin George on 8/21/15.
 //  Copyright (c) 2015 Nitin George. All rights reserved.
 //
 
-#import "MasterViewController.h"
-#import "DetailViewController.h"
+#import "MasterViewControllerThree.h"
 #import "NGSplitMenu.h"
+#import "DetailViewControllerTHree.h"
 
-@interface MasterViewController ()
+@interface MasterViewControllerThree ()
 @property (strong, nonatomic) IBOutlet UIButton *showDetailButton;
+@property (strong, nonatomic) IBOutlet UIButton *showDetailButton1;
 @end
 
-@implementation MasterViewController
+@implementation MasterViewControllerThree
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +23,12 @@
     _showDetailButton.layer.borderColor = [UIColor colorWithRed:0.090f green:0.349f blue:0.506f alpha:1.00f].CGColor;
     _showDetailButton.layer.borderWidth = 1.2;
     _showDetailButton.clipsToBounds = YES;
+    
+    _showDetailButton1.layer.cornerRadius = 5;
+    _showDetailButton1.layer.borderColor = [UIColor colorWithRed:0.090f green:0.349f blue:0.506f alpha:1.00f].CGColor;
+    _showDetailButton1.layer.borderWidth = 1.2;
+    _showDetailButton1.clipsToBounds = YES;
+
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -31,9 +38,17 @@
 }
 
 - (IBAction)showDetailClicked:(id)sender {
-    DetailViewController *detail = [[DetailViewController alloc]initWithNibName:@"DetailViewController" bundle:nil];
+    DetailViewControllerTHree *detail = [[DetailViewControllerTHree alloc]initWithNibName:@"DetailViewControllerTHree" bundle:nil];
     [[NGSplitViewManager sharedInstance]setDetailViewController:detail];
 }
+
+- (IBAction)showDetail1Clicked:(id)sender {
+    DetailViewControllerTHree *detail = [[DetailViewControllerTHree alloc]initWithNibName:@"DetailViewControllerTHree" bundle:nil];
+    [[NGSplitViewManager sharedInstance]setDetailViewController:detail];
+}
+
+
+
 
 /*
 #pragma mark - Navigation

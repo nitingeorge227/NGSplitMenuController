@@ -1,18 +1,18 @@
 //
-//  DetailViewController.m
+//  DetailViewControllerTwo.m
 //  NGSplitMenuController
 //
-//  Created by Nitin George on 8/22/15.
+//  Created by Nitin George on 8/21/15.
 //  Copyright (c) 2015 Nitin George. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "DetailViewControllerTwo.h"
 
-@interface DetailViewController ()
+@interface DetailViewControllerTwo ()
 
 @end
 
-@implementation DetailViewController
+@implementation DetailViewControllerTwo
 
 - (void)viewDidLoad {
     [super viewDidLoad];

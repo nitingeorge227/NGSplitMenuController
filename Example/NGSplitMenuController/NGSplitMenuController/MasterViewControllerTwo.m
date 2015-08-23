@@ -1,20 +1,20 @@
 //
-//  MasterViewController.m
+//  MasterViewControllerTwo.m
 //  NGSplitMenuController
 //
-//  Created by Nitin George on 8/22/15.
+//  Created by Nitin George on 8/21/15.
 //  Copyright (c) 2015 Nitin George. All rights reserved.
 //
 
-#import "MasterViewController.h"
-#import "DetailViewController.h"
+#import "MasterViewControllerTwo.h"
 #import "NGSplitMenu.h"
+#import "DetailViewControllerTwo.h"
 
-@interface MasterViewController ()
+@interface MasterViewControllerTwo ()
 @property (strong, nonatomic) IBOutlet UIButton *showDetailButton;
 @end
 
-@implementation MasterViewController
+@implementation MasterViewControllerTwo
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,9 +31,10 @@
 }
 
 - (IBAction)showDetailClicked:(id)sender {
-    DetailViewController *detail = [[DetailViewController alloc]initWithNibName:@"DetailViewController" bundle:nil];
+    DetailViewControllerTwo *detail = [[DetailViewControllerTwo alloc]initWithNibName:@"DetailViewControllerTwo" bundle:nil];
     [[NGSplitViewManager sharedInstance]setDetailViewController:detail];
 }
+
 
 /*
 #pragma mark - Navigation

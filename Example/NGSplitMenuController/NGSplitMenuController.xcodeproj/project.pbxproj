@@ -7,16 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2838FE441B88310300275105 /* MasterViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FE421B88310300275105 /* MasterViewControllerOne.m */; };
+		2838FE451B88310300275105 /* MasterViewControllerOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FE431B88310300275105 /* MasterViewControllerOne.xib */; };
+		2838FE491B88311500275105 /* MasterViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FE471B88311500275105 /* MasterViewControllerTwo.m */; };
+		2838FE4A1B88311500275105 /* MasterViewControllerTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FE481B88311500275105 /* MasterViewControllerTwo.xib */; };
+		2838FE4E1B88312600275105 /* MasterViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FE4C1B88312600275105 /* MasterViewControllerThree.m */; };
+		2838FE4F1B88312600275105 /* MasterViewControllerThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FE4D1B88312600275105 /* MasterViewControllerThree.xib */; };
+		2838FE531B88313E00275105 /* DetailViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FE511B88313E00275105 /* DetailViewControllerOne.m */; };
+		2838FE541B88313E00275105 /* DetailViewControllerOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FE521B88313E00275105 /* DetailViewControllerOne.xib */; };
+		2838FE581B88314F00275105 /* DetailViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FE561B88314F00275105 /* DetailViewControllerTwo.m */; };
+		2838FE591B88314F00275105 /* DetailViewControllerTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FE571B88314F00275105 /* DetailViewControllerTwo.xib */; };
+		2838FE5D1B88315E00275105 /* DetailViewControllerTHree.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FE5B1B88315E00275105 /* DetailViewControllerTHree.m */; };
+		2838FE5E1B88315E00275105 /* DetailViewControllerTHree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FE5C1B88315E00275105 /* DetailViewControllerTHree.xib */; };
+		2838FEC41B899DD100275105 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FEC21B899DD100275105 /* MasterViewController.m */; };
+		2838FEC51B899DD100275105 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FEC31B899DD100275105 /* MasterViewController.xib */; };
+		2838FEC91B899E2900275105 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2838FEC71B899E2900275105 /* DetailViewController.m */; };
+		2838FECA1B899E2900275105 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2838FEC81B899E2900275105 /* DetailViewController.xib */; };
 		28BDCD781B84F0490042DF4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD771B84F0490042DF4A /* main.m */; };
 		28BDCD7B1B84F0490042DF4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD7A1B84F0490042DF4A /* AppDelegate.m */; };
 		28BDCD831B84F0490042DF4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD821B84F0490042DF4A /* Images.xcassets */; };
 		28BDCD861B84F0490042DF4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCD841B84F0490042DF4A /* LaunchScreen.xib */; };
 		28BDCD921B84F0490042DF4A /* NGSplitMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */; };
-		28BDCDA51B84F5F50042DF4A /* NGSplitMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDA41B84F5F50042DF4A /* NGSplitMenuController.m */; };
-		28BDCDA91B85315A0042DF4A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDA71B85315A0042DF4A /* MasterViewController.m */; };
-		28BDCDAA1B85315A0042DF4A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDA81B85315A0042DF4A /* MasterViewController.xib */; };
-		28BDCDAE1B85316D0042DF4A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDAC1B85316D0042DF4A /* DetailViewController.m */; };
-		28BDCDAF1B85316D0042DF4A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDAD1B85316D0042DF4A /* DetailViewController.xib */; };
+		28BDCDC51B8648970042DF4A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDC31B8648970042DF4A /* MainViewController.m */; };
+		28BDCDC61B8648970042DF4A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDC41B8648970042DF4A /* MainViewController.xib */; };
+		28BDCDCC1B8653CC0042DF4A /* menuicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDCA1B8653CC0042DF4A /* menuicon.png */; };
+		28BDCDCD1B8653CC0042DF4A /* menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDCB1B8653CC0042DF4A /* menuicon@2x.png */; };
+		28BDCDDC1B8659240042DF4A /* MenuTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDD21B8659240042DF4A /* MenuTableCell.m */; };
+		28BDCDDE1B8659240042DF4A /* NGSplitMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDD61B8659240042DF4A /* NGSplitMenuController.m */; };
+		28BDCDDF1B8659240042DF4A /* NGSplitViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDD91B8659240042DF4A /* NGSplitViewManager.m */; };
+		28BDCDE21B86971D0042DF4A /* NGMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BDCDE11B86971D0042DF4A /* NGMenuItem.m */; };
+		28BDCDF71B86F5010042DF4A /* nav-icons-email2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDEF1B86F5010042DF4A /* nav-icons-email2x.png */; };
+		28BDCDF81B86F5010042DF4A /* nav-icons-email2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF01B86F5010042DF4A /* nav-icons-email2x@2x.png */; };
+		28BDCDF91B86F5010042DF4A /* nav-icons-home2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF11B86F5010042DF4A /* nav-icons-home2x.png */; };
+		28BDCDFA1B86F5010042DF4A /* nav-icons-home2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF21B86F5010042DF4A /* nav-icons-home2x@2x.png */; };
+		28BDCDFB1B86F5010042DF4A /* nav-icons-rss2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF31B86F5010042DF4A /* nav-icons-rss2x.png */; };
+		28BDCDFC1B86F5010042DF4A /* nav-icons-rss2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF41B86F5010042DF4A /* nav-icons-rss2x@2x.png */; };
+		28BDCDFD1B86F5010042DF4A /* nav-icons-twitter2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF51B86F5010042DF4A /* nav-icons-twitter2x.png */; };
+		28BDCDFE1B86F5010042DF4A /* nav-icons-twitter2x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28BDCDF61B86F5010042DF4A /* nav-icons-twitter2x@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +57,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2838FE411B88310300275105 /* MasterViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewControllerOne.h; sourceTree = "<group>"; };
+		2838FE421B88310300275105 /* MasterViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerOne.m; sourceTree = "<group>"; };
+		2838FE431B88310300275105 /* MasterViewControllerOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewControllerOne.xib; sourceTree = "<group>"; };
+		2838FE461B88311500275105 /* MasterViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewControllerTwo.h; sourceTree = "<group>"; };
+		2838FE471B88311500275105 /* MasterViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerTwo.m; sourceTree = "<group>"; };
+		2838FE481B88311500275105 /* MasterViewControllerTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewControllerTwo.xib; sourceTree = "<group>"; };
+		2838FE4B1B88312600275105 /* MasterViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewControllerThree.h; sourceTree = "<group>"; };
+		2838FE4C1B88312600275105 /* MasterViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewControllerThree.m; sourceTree = "<group>"; };
+		2838FE4D1B88312600275105 /* MasterViewControllerThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewControllerThree.xib; sourceTree = "<group>"; };
+		2838FE501B88313E00275105 /* DetailViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewControllerOne.h; sourceTree = "<group>"; };
+		2838FE511B88313E00275105 /* DetailViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewControllerOne.m; sourceTree = "<group>"; };
+		2838FE521B88313E00275105 /* DetailViewControllerOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewControllerOne.xib; sourceTree = "<group>"; };
+		2838FE551B88314F00275105 /* DetailViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewControllerTwo.h; sourceTree = "<group>"; };
+		2838FE561B88314F00275105 /* DetailViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewControllerTwo.m; sourceTree = "<group>"; };
+		2838FE571B88314F00275105 /* DetailViewControllerTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewControllerTwo.xib; sourceTree = "<group>"; };
+		2838FE5A1B88315E00275105 /* DetailViewControllerTHree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewControllerTHree.h; sourceTree = "<group>"; };
+		2838FE5B1B88315E00275105 /* DetailViewControllerTHree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewControllerTHree.m; sourceTree = "<group>"; };
+		2838FE5C1B88315E00275105 /* DetailViewControllerTHree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewControllerTHree.xib; sourceTree = "<group>"; };
+		2838FEC11B899DD100275105 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2838FEC21B899DD100275105 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2838FEC31B899DD100275105 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		2838FEC61B899E2900275105 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2838FEC71B899E2900275105 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2838FEC81B899E2900275105 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		28BDCD721B84F0490042DF4A /* NGSplitMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGSplitMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BDCD761B84F0490042DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28BDCD771B84F0490042DF4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,14 +91,29 @@
 		28BDCD8B1B84F0490042DF4A /* NGSplitMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGSplitMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BDCD901B84F0490042DF4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28BDCD911B84F0490042DF4A /* NGSplitMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGSplitMenuControllerTests.m; sourceTree = "<group>"; };
-		28BDCDA31B84F5F50042DF4A /* NGSplitMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSplitMenuController.h; sourceTree = "<group>"; };
-		28BDCDA41B84F5F50042DF4A /* NGSplitMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSplitMenuController.m; sourceTree = "<group>"; };
-		28BDCDA61B85315A0042DF4A /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		28BDCDA71B85315A0042DF4A /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		28BDCDA81B85315A0042DF4A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
-		28BDCDAB1B85316D0042DF4A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		28BDCDAC1B85316D0042DF4A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		28BDCDAD1B85316D0042DF4A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		28BDCDC21B8648970042DF4A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28BDCDC31B8648970042DF4A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		28BDCDC41B8648970042DF4A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		28BDCDCA1B8653CC0042DF4A /* menuicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuicon.png; sourceTree = "<group>"; };
+		28BDCDCB1B8653CC0042DF4A /* menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuicon@2x.png"; sourceTree = "<group>"; };
+		28BDCDCF1B8657E10042DF4A /* NGSplitMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGSplitMenu.h; sourceTree = "<group>"; };
+		28BDCDD11B8659240042DF4A /* MenuTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableCell.h; sourceTree = "<group>"; };
+		28BDCDD21B8659240042DF4A /* MenuTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableCell.m; sourceTree = "<group>"; };
+		28BDCDD51B8659240042DF4A /* NGSplitMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSplitMenuController.h; sourceTree = "<group>"; };
+		28BDCDD61B8659240042DF4A /* NGSplitMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSplitMenuController.m; sourceTree = "<group>"; };
+		28BDCDD81B8659240042DF4A /* NGSplitViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGSplitViewManager.h; sourceTree = "<group>"; };
+		28BDCDD91B8659240042DF4A /* NGSplitViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGSplitViewManager.m; sourceTree = "<group>"; };
+		28BDCDDB1B8659240042DF4A /* NGMenuConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMenuConstants.h; sourceTree = "<group>"; };
+		28BDCDE01B86971D0042DF4A /* NGMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGMenuItem.h; sourceTree = "<group>"; };
+		28BDCDE11B86971D0042DF4A /* NGMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGMenuItem.m; sourceTree = "<group>"; };
+		28BDCDEF1B86F5010042DF4A /* nav-icons-email2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-email2x.png"; sourceTree = "<group>"; };
+		28BDCDF01B86F5010042DF4A /* nav-icons-email2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-email2x@2x.png"; sourceTree = "<group>"; };
+		28BDCDF11B86F5010042DF4A /* nav-icons-home2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-home2x.png"; sourceTree = "<group>"; };
+		28BDCDF21B86F5010042DF4A /* nav-icons-home2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-home2x@2x.png"; sourceTree = "<group>"; };
+		28BDCDF31B86F5010042DF4A /* nav-icons-rss2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-rss2x.png"; sourceTree = "<group>"; };
+		28BDCDF41B86F5010042DF4A /* nav-icons-rss2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-rss2x@2x.png"; sourceTree = "<group>"; };
+		28BDCDF51B86F5010042DF4A /* nav-icons-twitter2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-twitter2x.png"; sourceTree = "<group>"; };
+		28BDCDF61B86F5010042DF4A /* nav-icons-twitter2x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-icons-twitter2x@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,15 +155,37 @@
 		28BDCD741B84F0490042DF4A /* NGSplitMenuController */ = {
 			isa = PBXGroup;
 			children = (
+				28BDCDB51B863A080042DF4A /* Assets */,
 				28BDCDA21B84F5BA0042DF4A /* NGSplitMenu */,
 				28BDCD791B84F0490042DF4A /* AppDelegate.h */,
 				28BDCD7A1B84F0490042DF4A /* AppDelegate.m */,
-				28BDCDA61B85315A0042DF4A /* MasterViewController.h */,
-				28BDCDA71B85315A0042DF4A /* MasterViewController.m */,
-				28BDCDA81B85315A0042DF4A /* MasterViewController.xib */,
-				28BDCDAB1B85316D0042DF4A /* DetailViewController.h */,
-				28BDCDAC1B85316D0042DF4A /* DetailViewController.m */,
-				28BDCDAD1B85316D0042DF4A /* DetailViewController.xib */,
+				28BDCDC21B8648970042DF4A /* MainViewController.h */,
+				28BDCDC31B8648970042DF4A /* MainViewController.m */,
+				28BDCDC41B8648970042DF4A /* MainViewController.xib */,
+				2838FEC11B899DD100275105 /* MasterViewController.h */,
+				2838FEC21B899DD100275105 /* MasterViewController.m */,
+				2838FEC31B899DD100275105 /* MasterViewController.xib */,
+				2838FE411B88310300275105 /* MasterViewControllerOne.h */,
+				2838FE421B88310300275105 /* MasterViewControllerOne.m */,
+				2838FE431B88310300275105 /* MasterViewControllerOne.xib */,
+				2838FE461B88311500275105 /* MasterViewControllerTwo.h */,
+				2838FE471B88311500275105 /* MasterViewControllerTwo.m */,
+				2838FE481B88311500275105 /* MasterViewControllerTwo.xib */,
+				2838FE4B1B88312600275105 /* MasterViewControllerThree.h */,
+				2838FE4C1B88312600275105 /* MasterViewControllerThree.m */,
+				2838FE4D1B88312600275105 /* MasterViewControllerThree.xib */,
+				2838FEC61B899E2900275105 /* DetailViewController.h */,
+				2838FEC71B899E2900275105 /* DetailViewController.m */,
+				2838FEC81B899E2900275105 /* DetailViewController.xib */,
+				2838FE501B88313E00275105 /* DetailViewControllerOne.h */,
+				2838FE511B88313E00275105 /* DetailViewControllerOne.m */,
+				2838FE521B88313E00275105 /* DetailViewControllerOne.xib */,
+				2838FE551B88314F00275105 /* DetailViewControllerTwo.h */,
+				2838FE561B88314F00275105 /* DetailViewControllerTwo.m */,
+				2838FE571B88314F00275105 /* DetailViewControllerTwo.xib */,
+				2838FE5A1B88315E00275105 /* DetailViewControllerTHree.h */,
+				2838FE5B1B88315E00275105 /* DetailViewControllerTHree.m */,
+				2838FE5C1B88315E00275105 /* DetailViewControllerTHree.xib */,
 				28BDCD821B84F0490042DF4A /* Images.xcassets */,
 				28BDCD841B84F0490042DF4A /* LaunchScreen.xib */,
 				28BDCD751B84F0490042DF4A /* Supporting Files */,
@@ -134,11 +222,68 @@
 		28BDCDA21B84F5BA0042DF4A /* NGSplitMenu */ = {
 			isa = PBXGroup;
 			children = (
-				28BDCDA31B84F5F50042DF4A /* NGSplitMenuController.h */,
-				28BDCDA41B84F5F50042DF4A /* NGSplitMenuController.m */,
+				28BDCDCF1B8657E10042DF4A /* NGSplitMenu.h */,
+				28BDCDD01B8659240042DF4A /* NGCellViews */,
+				28BDCDD41B8659240042DF4A /* NGSplitController */,
+				28BDCDD71B8659240042DF4A /* NGSplitManager */,
+				28BDCDDA1B8659240042DF4A /* NGUtils */,
 			);
 			path = NGSplitMenu;
 			sourceTree = SOURCE_ROOT;
+		};
+		28BDCDB51B863A080042DF4A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCDCA1B8653CC0042DF4A /* menuicon.png */,
+				28BDCDCB1B8653CC0042DF4A /* menuicon@2x.png */,
+				28BDCDEF1B86F5010042DF4A /* nav-icons-email2x.png */,
+				28BDCDF01B86F5010042DF4A /* nav-icons-email2x@2x.png */,
+				28BDCDF11B86F5010042DF4A /* nav-icons-home2x.png */,
+				28BDCDF21B86F5010042DF4A /* nav-icons-home2x@2x.png */,
+				28BDCDF31B86F5010042DF4A /* nav-icons-rss2x.png */,
+				28BDCDF41B86F5010042DF4A /* nav-icons-rss2x@2x.png */,
+				28BDCDF51B86F5010042DF4A /* nav-icons-twitter2x.png */,
+				28BDCDF61B86F5010042DF4A /* nav-icons-twitter2x@2x.png */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		28BDCDD01B8659240042DF4A /* NGCellViews */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCDD11B8659240042DF4A /* MenuTableCell.h */,
+				28BDCDD21B8659240042DF4A /* MenuTableCell.m */,
+			);
+			path = NGCellViews;
+			sourceTree = "<group>";
+		};
+		28BDCDD41B8659240042DF4A /* NGSplitController */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCDD51B8659240042DF4A /* NGSplitMenuController.h */,
+				28BDCDD61B8659240042DF4A /* NGSplitMenuController.m */,
+			);
+			path = NGSplitController;
+			sourceTree = "<group>";
+		};
+		28BDCDD71B8659240042DF4A /* NGSplitManager */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCDD81B8659240042DF4A /* NGSplitViewManager.h */,
+				28BDCDD91B8659240042DF4A /* NGSplitViewManager.m */,
+			);
+			path = NGSplitManager;
+			sourceTree = "<group>";
+		};
+		28BDCDDA1B8659240042DF4A /* NGUtils */ = {
+			isa = PBXGroup;
+			children = (
+				28BDCDDB1B8659240042DF4A /* NGMenuConstants.h */,
+				28BDCDE01B86971D0042DF4A /* NGMenuItem.h */,
+				28BDCDE11B86971D0042DF4A /* NGMenuItem.m */,
+			);
+			path = NGUtils;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -220,10 +365,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BDCDFB1B86F5010042DF4A /* nav-icons-rss2x.png in Resources */,
 				28BDCD861B84F0490042DF4A /* LaunchScreen.xib in Resources */,
+				2838FEC51B899DD100275105 /* MasterViewController.xib in Resources */,
 				28BDCD831B84F0490042DF4A /* Images.xcassets in Resources */,
-				28BDCDAA1B85315A0042DF4A /* MasterViewController.xib in Resources */,
-				28BDCDAF1B85316D0042DF4A /* DetailViewController.xib in Resources */,
+				28BDCDF71B86F5010042DF4A /* nav-icons-email2x.png in Resources */,
+				28BDCDC61B8648970042DF4A /* MainViewController.xib in Resources */,
+				2838FE5E1B88315E00275105 /* DetailViewControllerTHree.xib in Resources */,
+				28BDCDFC1B86F5010042DF4A /* nav-icons-rss2x@2x.png in Resources */,
+				2838FE4F1B88312600275105 /* MasterViewControllerThree.xib in Resources */,
+				28BDCDFA1B86F5010042DF4A /* nav-icons-home2x@2x.png in Resources */,
+				28BDCDCC1B8653CC0042DF4A /* menuicon.png in Resources */,
+				2838FE451B88310300275105 /* MasterViewControllerOne.xib in Resources */,
+				28BDCDF91B86F5010042DF4A /* nav-icons-home2x.png in Resources */,
+				28BDCDCD1B8653CC0042DF4A /* menuicon@2x.png in Resources */,
+				2838FE541B88313E00275105 /* DetailViewControllerOne.xib in Resources */,
+				28BDCDF81B86F5010042DF4A /* nav-icons-email2x@2x.png in Resources */,
+				2838FECA1B899E2900275105 /* DetailViewController.xib in Resources */,
+				28BDCDFD1B86F5010042DF4A /* nav-icons-twitter2x.png in Resources */,
+				2838FE591B88314F00275105 /* DetailViewControllerTwo.xib in Resources */,
+				2838FE4A1B88311500275105 /* MasterViewControllerTwo.xib in Resources */,
+				28BDCDFE1B86F5010042DF4A /* nav-icons-twitter2x@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,11 +403,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BDCDAE1B85316D0042DF4A /* DetailViewController.m in Sources */,
+				28BDCDE21B86971D0042DF4A /* NGMenuItem.m in Sources */,
+				2838FE581B88314F00275105 /* DetailViewControllerTwo.m in Sources */,
 				28BDCD7B1B84F0490042DF4A /* AppDelegate.m in Sources */,
-				28BDCDA51B84F5F50042DF4A /* NGSplitMenuController.m in Sources */,
-				28BDCDA91B85315A0042DF4A /* MasterViewController.m in Sources */,
+				2838FE491B88311500275105 /* MasterViewControllerTwo.m in Sources */,
+				28BDCDDE1B8659240042DF4A /* NGSplitMenuController.m in Sources */,
+				2838FEC91B899E2900275105 /* DetailViewController.m in Sources */,
+				28BDCDC51B8648970042DF4A /* MainViewController.m in Sources */,
+				2838FEC41B899DD100275105 /* MasterViewController.m in Sources */,
 				28BDCD781B84F0490042DF4A /* main.m in Sources */,
+				28BDCDDF1B8659240042DF4A /* NGSplitViewManager.m in Sources */,
+				2838FE4E1B88312600275105 /* MasterViewControllerThree.m in Sources */,
+				2838FE531B88313E00275105 /* DetailViewControllerOne.m in Sources */,
+				28BDCDDC1B8659240042DF4A /* MenuTableCell.m in Sources */,
+				2838FE5D1B88315E00275105 /* DetailViewControllerTHree.m in Sources */,
+				2838FE441B88310300275105 /* MasterViewControllerOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NGSplitMenuController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -377,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NGSplitMenuController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -436,6 +610,7 @@
 				28BDCD971B84F0490042DF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28BDCD981B84F0490042DF4A /* Build configuration list for PBXNativeTarget "NGSplitMenuControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +619,7 @@
 				28BDCD9A1B84F0490042DF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

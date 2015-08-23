@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewControllerOne">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -15,11 +15,11 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail view 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuJ-PR-Ncl">
-                    <rect key="frame" x="174.5" y="273" width="251" height="54.5"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail view 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEm-bS-qIj">
+                    <rect key="frame" x="175" y="273" width="251" height="54.5"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="251" id="COo-IW-COf"/>
-                        <constraint firstAttribute="height" constant="54.5" id="cse-YA-PH8"/>
+                        <constraint firstAttribute="height" constant="54.5" id="h8s-Bm-9cv"/>
+                        <constraint firstAttribute="width" constant="251" id="kpk-Dc-ZL7"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="46"/>
                     <color key="textColor" red="0.090196078430000007" green="0.34901960780000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -28,8 +28,8 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="kuJ-PR-Ncl" secondAttribute="centerY" id="FQO-OE-k7O"/>
-                <constraint firstAttribute="centerX" secondItem="kuJ-PR-Ncl" secondAttribute="centerX" id="kUL-4X-eEb"/>
+                <constraint firstAttribute="centerY" secondItem="UEm-bS-qIj" secondAttribute="centerY" id="7uo-4s-siF"/>
+                <constraint firstAttribute="centerX" secondItem="UEm-bS-qIj" secondAttribute="centerX" id="Chh-sR-Yxu"/>
             </constraints>
         </view>
     </objects>

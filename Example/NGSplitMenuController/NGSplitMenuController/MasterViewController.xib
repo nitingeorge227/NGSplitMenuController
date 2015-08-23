@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MasterViewController">
             <connections>
+                <outlet property="showDetailButton" destination="Wpa-QO-UuR" id="eov-1s-szZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -13,7 +15,48 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Master1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXX-du-fAE">
+                    <rect key="frame" x="162" y="273" width="275" height="54.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="275" id="1hi-ox-xsU"/>
+                        <constraint firstAttribute="height" constant="54.5" id="RIg-OP-qcV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="46"/>
+                    <color key="textColor" red="0.090196078430000007" green="0.34901960780000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wpa-QO-UuR">
+                    <rect key="frame" x="247" y="335" width="105" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="105" id="Ryr-28-ECn"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="UA6-MO-waF"/>
+                        <constraint firstAttribute="height" constant="40" id="VzF-hf-IMK"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="105" id="wAY-Eo-zJp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                    <state key="normal" title="Show Detail">
+                        <color key="titleColor" red="0.090196078430000007" green="0.34901960780000002" blue="0.50588235290000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="UA6-MO-waF"/>
+                            <exclude reference="wAY-Eo-zJp"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="showDetailClicked:" destination="-1" eventType="touchUpInside" id="ZoJ-bY-tGP"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="DXX-du-fAE" secondAttribute="centerY" id="FBb-hj-BjN"/>
+                <constraint firstAttribute="centerX" secondItem="Wpa-QO-UuR" secondAttribute="centerX" id="Q5I-gs-BAN"/>
+                <constraint firstItem="Wpa-QO-UuR" firstAttribute="top" secondItem="DXX-du-fAE" secondAttribute="bottom" constant="7.5" id="gk6-rt-fse"/>
+                <constraint firstAttribute="centerX" secondItem="DXX-du-fAE" secondAttribute="centerX" id="kdZ-Te-91m"/>
+            </constraints>
         </view>
     </objects>
 </document>

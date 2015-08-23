@@ -7,13 +7,15 @@
 //
 
 #import "AppDelegate.h"
-#import "NGSplitMenuController.h"
 #import "MasterViewController.h"
 #import "DetailViewController.h"
+#import "MainViewController.h"
+//#import "NGSplitViewManager.h"
+#import "NGSplitMenu.h"
 
 @interface AppDelegate ()
 
-@property (nonatomic,strong) NGSplitMenuController *splitMenuController;
+@property (nonatomic,strong) UIViewController *rootViewController;
 
 @end
 
@@ -23,21 +25,65 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    MainViewController *manView = [[MainViewController alloc]init];
     MasterViewController *masterView = [[MasterViewController alloc]init];
     DetailViewController *detailView = [[DetailViewController alloc]init];
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     
-    _splitMenuController = [[NGSplitMenuController alloc]initWithMasterViewController:masterView andDetailController:detailView];
+    //[UIColor colorWithRed:0.212f green:0.212f blue:0.212f alpha:1.00f]
+    
+    [[NGSplitViewManager sharedInstance]setDefaultOptions:@{kNGMenuBackgroundColorKey : [UIColor colorWithRed:0.212f green:0.212f blue:0.212f alpha:1.00f],
+                                                            kNGMenuItemFontKey             : [UIFont fontWithName:@"HelveticaNeue-Light" size:18.0f],
+                                                            kNGMenuItemFontColorKey     :[UIColor whiteColor],
+                                                            kNGMenuitemSelectionColorKey        : [UIColor colorWithRed:0.890f green:0.494f blue:0.322f alpha:1.00f],
+                                                            kNGMenuSeperatorColorKey  : [UIColor colorWithWhite:0.841 alpha:1.000],
+                                                            kNGMenuLineSeperatorKey     : @(NO),
+                                                            }];
+    
+    [[NGSplitViewManager sharedInstance]setRootViewController:manView masterViewController:masterView detailViewController:detailView];
+    
+    [[NGSplitViewManager sharedInstance]setMenuItems:[self menuItems]];
     
     
-    UINavigationController *rootNavigationController = [[UINavigationController alloc]initWithRootViewController:_splitMenuController];
+    
+    
+    UINavigationController *rootNavigationController = [[UINavigationController alloc]initWithRootViewController:manView];
     
     self.window.rootViewController = rootNavigationController;
+    
+    [[UINavigationBar appearance]setBarTintColor:[UIColor colorWithRed:0.090f green:0.349f blue:0.506f alpha:1.00f]];
     
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+- (NSArray*)menuItems{
+    NSMutableArray *menuItem = [NSMutableArray array];
+    
+    NGMenuItem *menuItem1 = [[NGMenuItem alloc]init];
+    menuItem1.itemDescription = @"Home";
+    menuItem1.itemImage = [UIImage imageNamed:@"nav-icons-home2x.png"];
+    [menuItem addObject:menuItem1];
+    
+    NGMenuItem *menuItem2 = [[NGMenuItem alloc]init];
+    menuItem2.itemDescription = @"Mesages";
+    menuItem2.itemImage = [UIImage imageNamed:@"nav-icons-email2x.png"];
+    [menuItem addObject:menuItem2];
+    
+    NGMenuItem *menuItem3 = [[NGMenuItem alloc]init];
+    menuItem3.itemDescription = @"RSS Feeds";
+    menuItem3.itemImage = [UIImage imageNamed:@"nav-icons-rss2x.png"];
+    [menuItem addObject:menuItem3];
+    
+    NGMenuItem *menuItem4 = [[NGMenuItem alloc]init];
+    menuItem4.itemDescription = @"Twitter";
+    menuItem4.itemImage = [UIImage imageNamed:@"nav-icons-twitter2x.png"];
+    [menuItem addObject:menuItem4];
+    
+    
+    return menuItem;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
