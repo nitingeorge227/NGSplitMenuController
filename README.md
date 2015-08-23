@@ -13,6 +13,10 @@ Menu Driven Split view controller for iOS 7 and above
 
 Build and run the Example project in Xcode to see `NGSplitMenuController` in action.
 
+## Manual Install
+
+All you need to do is drop `NGSplitMenu` files into your project, and add `#include "NGSplitMenu.h"` to the top of classes that will use it.
+
 ## Author
 
 Nitin George nitingeorge227@yahoo.com
