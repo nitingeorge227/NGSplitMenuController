@@ -1,6 +1,6 @@
 ## NGSplitMenuController
 
-This is a menu driven Split view controller for iOS 7 and above.The sidemenu on the left is used to select from the diffrent master views.The third section shows the details corresponding to each master view.
+This is a menu driven Split view controller for iOS 7 and above.The sidemenu on the left is used to select from the different master views.The third section shows the details corresponding to each master view.
 
 ![NGSPLITGIF](https://raw.githubusercontent.com/nitingeorge227/NGSplitMenuController/master/Example/NGSplitMenuController/Assets/NGSplitMenu.gif)
 
