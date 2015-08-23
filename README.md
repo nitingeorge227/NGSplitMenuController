@@ -6,7 +6,7 @@ Requirements
 
 iOS 7.0 or later
 
-Author
+### Author
 
 Nitin George nitingeorge227@yahoo.com
 
