@@ -2,9 +2,9 @@
 
 This is a menu driven Split view controller for iOS 7 and above.The sidemenu on the left is used to select from the diffrent master views.The third section shows the details corresponding to each master view.
 
-![NGSPLIT](https://raw.githubusercontent.com/nitingeorge227/NGSplitMenuController/master/Screenshots/iOS Simulator Screen Shot Aug 23, 2015, 12.05.15 AM.png)
-
 ![NGSPLITGIF](https://raw.githubusercontent.com/nitingeorge227/NGSplitMenuController/master/Example/NGSplitMenuController/Assets/NGSplitMenu.gif)
+
+![NGSPLIT](https://raw.githubusercontent.com/nitingeorge227/NGSplitMenuController/master/Screenshots/iOS Simulator Screen Shot Aug 23, 2015, 12.05.15 AM.png)
 
 ## Requirements
 
