@@ -1,4 +1,4 @@
-### NGSplitMenuController
+## NGSplitMenuController
 
 Menu Driven Split view controller for iOS 7 and above
 
@@ -6,12 +6,17 @@ Menu Driven Split view controller for iOS 7 and above
 
 ## Requirements
 
-iOS 7.0 or later
+* iOS 7.0 or later
+* ARC
 
-### Author
+## Demo
+
+Build and run the Example project in Xcode to see `NGSplitMenuController` in action.
+
+## Author
 
 Nitin George nitingeorge227@yahoo.com
 
-### License
+## License
 
 NGSplitMenuController is available under the MIT license.
