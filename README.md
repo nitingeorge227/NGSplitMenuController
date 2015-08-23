@@ -92,7 +92,8 @@ Set the detail view in `MasterViewController`
 `````````
 DetailViewController *detail = [[DetailViewController alloc]initWithNibName:@"DetailViewController" bundle:nil];
     [[NGSplitViewManager sharedInstance]setDetailViewController:detail];
-    ``````````````
+    
+``````````````
 
 
 ## Author
