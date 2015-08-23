@@ -32,24 +32,22 @@ In your AppDelegate's `- (BOOL)application:(UIApplication *)application didFinis
 Create the view controllers and set the master and detail views
 
 ``````
-    MainViewController *mainView = [[MainViewController alloc]init];
-    MasterViewController *masterView = [[MasterViewController alloc]init];
-    DetailViewController *detailView = [[DetailViewController alloc]init];
+MainViewController *mainView = [[MainViewController alloc]init];
+MasterViewController *masterView = [[MasterViewController alloc]init];
+DetailViewController *detailView = [[DetailViewController alloc]init];
     
-    [[NGSplitViewManager sharedInstance]setRootViewController:mainView masterViewController:masterView   detailViewController:detailView];
+[[NGSplitViewManager sharedInstance]setRootViewController:mainView masterViewController:masterView   detailViewController:detailView];
     
 ``````
 Set the menu items
 
 `````````
-    NSMutableArray *menuItems = [NSMutableArray array];
-    
-    NGMenuItem *menuItem1 = [[NGMenuItem alloc]init];
-    menuItem1.itemDescription = @"Home";
-    menuItem1.itemImage = [UIImage imageNamed:@"icon-name"];
-    [menuItems addObject:menuItem1];
-    
-    [[NGSplitViewManager sharedInstance]setMenuItems:menuItem];
+NSMutableArray *menuItems = [NSMutableArray array];
+NGMenuItem *menuItem1 = [[NGMenuItem alloc]init];
+menuItem1.itemDescription = @"Home";
+menuItem1.itemImage = [UIImage imageNamed:@"icon-name"];
+[menuItems addObject:menuItem1];
+[[NGSplitViewManager sharedInstance]setMenuItems:menuItem];
     
 ````````````
 
